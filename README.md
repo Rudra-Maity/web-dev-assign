@@ -102,7 +102,7 @@ To verify the implementation of the HTML page, use the following test case:
 
 
 ## License
-Copyright (c) 2012-2024 Scott Chacon and others
+Copyright (c) 2012-2024 Rudrapriya Maity
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
