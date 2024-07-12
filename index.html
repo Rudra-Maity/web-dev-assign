@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Devloper</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-left left-contact">
+            <h5 class="text-danger ml-5">AWARD WINNING</h5>
+            <h1 class="font-weight-bold ml-4">DIGITAL MARKETING AGENCY</h1>
+            <p class="ml-4">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante et elit fringilla ac at purus.</p>
+            <button class="btn btn-danger ml-4 mb-4 mt-4" id="contactBtn" data-toggle="modal" data-target="#contactModal">CONTACT US</button>
+        </div>
+        <div class="col-md-6 d-flex justify-content-end">
+            <img src="https://m.media-amazon.com/images/I/71E5OclZxZL._SL1500_.jpg" alt="Digital Marketing" class="img-fluid rounded" width="85%" height="50%">
+        </div>
+    </div>
+   <!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <form id="contactForm form-control" action="https://getform.io/f/bejyjrna" method="post">
+                    <div class="form">
+                        <h2 id="h2">Talk to us</h2>
+                        <div class="input-group">
+                            <input type="email" required name="email">
+                            <span class="bar"></span>
+                            <label>Work email</label>
+                        </div>
+                        <div class="name-container">
+                            <div class="input-group">
+                                <input type="text" required name="firstname">
+                                <span class="bar"></span>
+                                <label>First name</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" required name="lastname">
+                                <span class="bar"></span>
+                                <label>Last name</label>
+                            </div>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="agree">
+                            <label for="agree">I agree to Fyle's terms and conditions, and provide consent to send me communication.</label>
+                        </div>
+                        <button id="contact-button">Contact Us</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="container" class="container-fluid mt-4 p-4">
+  <div class="row">
+    <div class="col-md-5">
+      <h1>WHAT WE DO</h1>
+      <h2>SERVICES PROVIDE FOR YOU</h2>
+    </div>
+    <div class="col-md-5">
+      <p class="description">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus. Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+    </div>
+  </div>
+  <div class="services-slider-container">
+      <div class="services-slider">
+          <div class="service">
+              <img class="image" src="https://i.etsystatic.com/19136433/r/il/4146ff/4543878555/il_1588xN.4543878555_3nlp.jpg" alt="Service 1">
+              <div class="service-content">
+                <img class="img2 mb-3" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT2MKaRfiwI3ndYnLEQ-gSiu4AQXZ0tBzkMPDd3kbEnbQnLc00x" alt="">
+                  <h3>WEB DEVELOPMENT</h3>
+                  <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                  <a href="https://fylehq.com" target="_blank" class="bg-white text-danger p-2 rounded">READ MORE →</a>
+              </div>
+          </div>
+          <div class="service">
+              <img class="image" src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*pQUBig1c184CsSjcgYcIIQ.jpeg" alt="Service 2">
+              <div class="service-content">
+                <img class="img2 mb-3" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT2MKaRfiwI3ndYnLEQ-gSiu4AQXZ0tBzkMPDd3kbEnbQnLc00x" alt="">
+                  <h3>WEB DEVELOPMENT</h3>
+                  <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                  <a href="https://fylehq.com" target="_blank" class="bg-white text-danger p-2 rounded">READ MORE →</a>
+              </div>
+          </div>
+          <div class="read-more-card">
+            <div class="read-more-card-content">
+              <img class="img2 mb-3" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT2MKaRfiwI3ndYnLEQ-gSiu4AQXZ0tBzkMPDd3kbEnbQnLc00x" alt="">
+                <h3>WEB DEVELOPMENT</h3>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                <a href="https://fylehq.com" target="_blank" class="bg-white text-danger p-2 rounded">READ MORE →</a>
+            </div>
+        </div>
+          <div class="service">
+              <img class="image" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSmn2CiCD1PMZUqF0c2pAq6PewB1QnMplY6F74vO8sEydoecj-j" alt="Service 3">
+              <div class="service-content">
+                <img class="img2 mb-3" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT2MKaRfiwI3ndYnLEQ-gSiu4AQXZ0tBzkMPDd3kbEnbQnLc00x" alt="">
+                  <h3>WEB DEVELOPMENT</h3>
+                  <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                  <a href="https://fylehq.com" target="_blank" class="bg-white text-danger p-2 rounded">READ MORE →</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+  </div>
+</div>
+
+<div class="container mt-5 mb-5 p-3">
+    <div class="text-center">
+        <h5 class="card-title text-danger">Our Project</h5>
+        <h3 class="card-title">Why We Are Best</h3>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img id="project-image" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQm36hwcBLxVejEi5FWmExtCO7cpWeKv_mC-T0wgFJDIT_0cvpe" class="img" width="100%" alt="Project Image">
+        </div>
+        <div class="col-md-4 bg-light">
+            <div class="row">
+                <div class="col con">
+                    <div class="content-item" data-image="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQm36hwcBLxVejEi5FWmExtCO7cpWeKv_mC-T0wgFJDIT_0cvpe">
+                        <div class="card-body">
+                            <h5 class="card-title">Genderless Kei – Japan’s Hot New Fashion Trend</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo expedita blanditiis magnam!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col con">
+                    <div class="content-item" data-image="https://via.placeholder.com/600/00ff00">
+                        <div class="card-body">
+                            <h5 class="card-title">Genderless Kei – Japan’s Hot New Fashion Trend</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo expedita blanditiis magnam!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col con">
+                    <div class="content-item" data-image="https://via.placeholder.com/600/0000ff">
+                        <div class="card-body">
+                            <h5 class="card-title">Genderless Kei – Japan’s Hot New Fashion Trend</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo expedita blanditiis magnam!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mb-4 ">
+    <h5 class="text-center text-danger p-3">EXPERTS GROWTH</h5>
+    <h1 class="text-center h1 mt-3">OUR COMPANY GROWTH</h1>
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-2 col-sm-6 col-xs-12">
+            <div class="card border-0 bg-light">
+                <div class="d-flex justify-content-center p-3">
+                    <img class="img2" src="https://static.vecteezy.com/system/resources/previews/006/597/090/large_2x/heart-icon-perfect-love-symbol-valentine-s-day-sign-emblem-isolated-on-white-background-flat-style-for-graphic-and-web-design-vector.jpg" alt="">
+                </div>
+                <div class="cover item-a text-center pb-3">
+                    <h3>199+</h3>
+                    <span>Satisfied Customer</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-xs-12">
+            <div class="card border-0 bg-light">
+                <div class="d-flex justify-content-center p-3">
+                    <i class="fas fa-clock text-danger h2" ></i>
+                </div>
+                <div class="cover item-a text-center pb-3">
+                    <h3>1591+</h3>
+                    <span>Days Of Operation</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-xs-12">
+            <div class="card border-0 bg-light">
+                <div class="d-flex justify-content-center p-3">
+                  <i class="fa fa-check-circle text-danger h3" aria-hidden="true"></i>
+
+
+                </div>
+                <div class="cover item-a text-center pb-3">
+                    <h3>283+</h3>
+                    <span>Complete Project</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-xs-12">
+            <div class="card border-0 bg-light">
+                <div class="d-flex justify-content-center p-3">
+                    <img class="img2 " src="https://cdn-user-icons.flaticon.com/135895/135895296/1720782988252.svg?token=exp=1720783902~hmac=18256c088097739ed40bca099636f926" alt="">
+                </div>
+                <div class="cover item-a text-center pb-3">
+                    <h3>75+</h3>
+                    <span>Win Awards</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+</html>
