@@ -71,14 +71,14 @@ To verify the implementation of the HTML page, use the following test case:
 - Leave the first name or last name field empty and try to submit. The form should display a validation error.
 
 **Step 6**: The slider:
-- Here slider is changed 7s interval and also three dots are changed accordingly.
+- Here slider is changed to 7s interval and also three dots are changed accordingly.
 - when you hover then read more text will appear.
-- 
+  
 **Step 7**: The Image changing:
 - when you click on a card then the left side image will be changed.
 **Step 8**: The Section cards:
-- when you hover on a card then the card will be highlite.
-- 
+- when you hover on a card then the card will be highlighted.
+
 ## Screenshots
 ### Introductory Section
 ![Introductory Section](contact.png)
