@@ -80,7 +80,8 @@ To verify the implementation of the HTML page, use the following test case:
 - when you hover on a card then card will be highlit.
 ## Screenshots
 
-Include screenshots of different sections of the website here to provide a visual reference.
+![Introductory Section](contact.png)
+
 
 ## License
 
